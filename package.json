@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ChefYeum/Labelvid#readme",
   "dependencies": {
     "@types/express": "^4.17.6",
+    "@types/mongoose": "^5.7.12",
     "concurrently": "^5.1.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.9",
