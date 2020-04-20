@@ -12,5 +12,3 @@ app.use("/api/video", video);
 app.listen(port, () => {
   console.log( `Server started at http://localhost:${port}`);
 });
-
-// mongodb+srv://admin:admin@labelvid-ksogc.mongodb.net/test?retryWrites=true&w=majority
