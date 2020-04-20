@@ -6,7 +6,7 @@ const app = express();
 const port = 8090;
 
 connectDB();
-app.use(express.static('client'));
+app.use(express.static('client/dist'));
 app.use("/api/video", video);
 
 app.listen(port, () => {

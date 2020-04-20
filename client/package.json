@@ -4,8 +4,8 @@
   "description": "",
   "main": "fabric.js",
   "scripts": {
-    "start": "concurrently -r \"tsc --noEmit --watch\" \"npm:start\"",
-    "build": "tsc --noEmit && parcel build ./src/index.html --public-url '/'"
+    "start": "concurrently -r \"tsc --watch\" \"npm:start\"",
+    "build": "tsc & parcel build ./src/index.html --public-url '/'"
   },
   "author": "",
   "license": "ISC",
