@@ -1,6 +1,8 @@
 # Labelvid
 Web based video labeller for Vision or whatever.
 
+(Used for a coding test)
+
 # How to run
 1. Make sure (NPM)[https://nodejs.org/en/] is installed.
 2. Open shell in the root directory of the project.
